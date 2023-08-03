@@ -1,0 +1,115 @@
+.logoBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logoName {
+  font-size: 25px;
+}
+.animate {
+}
+.registerContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 8px;
+}
+.inputBox {
+  display: flex;
+  flex-direction: column;
+  margin-top: 8px;
+  margin-bottom: 15px;
+  border: none;
+  width: 100%;
+}
+.logoContainer {
+  height: 100vh;
+}
+.inputTag {
+  margin-top: 8px;
+  padding: 6px;
+  padding-left: 8px;
+  border-radius: 5px;
+}
+.inputContainer {
+  width: 25%;
+  padding: 10px;
+}
+.label {
+  font-size: larger;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.signTitle {
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 25px;
+}
+.formGroup {
+  margin-top: 25px;
+}
+.signBtn {
+  margin-top: 15px;
+  width: 100%;
+  padding: 8px;
+  border: none;
+  text-align: center;
+  color: white;
+  border-radius: 5px;
+  background-color: rgb(38, 50, 216);
+}
+.signBtn:hover {
+  opacity: 0.8;
+}
+
+/* Add a class to style the input when it is in focus */
+
+.genderAndMale {
+  width: 100%;
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  align-items: center;
+}
+.gender,
+.male {
+  display: flex;
+  flex-direction: column;
+}
+.genderInput {
+  margin-top: 8px;
+  padding: 6px;
+  padding-left: 8px;
+  border-radius: 5px;
+  max-width: 125px;
+}
+
+.select {
+  border: 1px solid black;
+  padding: 8px;
+  border-radius: 5px;
+  background-color: white;
+}
+.genderSelect {
+  padding: 6px;
+  padding-left: 8px;
+  border-radius: 5px;
+  max-width: 125px;
+}
+a {
+  color: rgb(31, 31, 221);
+  text-decoration: none;
+  margin-top: 20px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 400;
+}
+.pageBox {
+  display: flex;
+  justify-content: space-between;
+}
+.login:hover {
+  opacity: 0.8;
+}
+.home:hover {
+  opacity: 0.8;
+}
