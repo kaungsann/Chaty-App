@@ -5,6 +5,9 @@
 }
 .logoName {
   font-size: 25px;
+  font-weight: bolder;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #343a40;
 }
 .animate {
 }

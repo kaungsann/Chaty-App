@@ -1,0 +1,52 @@
+.chatRooms {
+  padding: 15px;
+  width: 25%;
+  background-color: whitesmoke;
+  height: 100vh;
+  position: fixed;
+  left: 0;
+  top: 0;
+}
+.chats {
+  color: rgb(15, 15, 143);
+  font-size: 18px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 1000;
+}
+.btnBox {
+  display: flex;
+}
+.addIcons {
+  padding: 2px;
+  font-size: 20px;
+  color: rgb(15, 15, 143);
+}
+.btn {
+  display: flex;
+  justify-content: center;
+  margin-left: 12px;
+  background-color: white;
+  border-radius: 6px;
+  border: 0.1 solid gray;
+}
+.titleBox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.searchBox {
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.recent {
+  color: rgb(15, 15, 143);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 18px;
+  font-weight: 1000;
+  margin-bottom: 20px;
+}
+.card {
+  margin-top: 30px;
+}

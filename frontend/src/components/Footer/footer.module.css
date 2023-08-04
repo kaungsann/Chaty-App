@@ -1,0 +1,57 @@
+.logoBox {
+  display: flex;
+  align-items: center;
+}
+.img {
+  max-width: 100px;
+}
+.logoTitle {
+  display: flex;
+  flex-direction: column;
+}
+.chaty {
+  font-size: 25px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bolder;
+  color: #343434;
+}
+.free {
+  font-size: 20px;
+  margin-top: 6px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: #343434;
+}
+.footerLabel {
+  width: 60%;
+  font-size: 18px;
+  color: rgb(102, 99, 99);
+  display: flex;
+  justify-content: space-around;
+}
+.labelBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.Container {
+  margin-top: 80px;
+  margin-bottom: 100px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.text {
+  margin-bottom: 12px;
+}
+.copy {
+  font-size: 20px;
+  color: rgb(129, 127, 139);
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.copyRight {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}

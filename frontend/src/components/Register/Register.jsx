@@ -36,7 +36,6 @@ export default function Register() {
                 <span className="label">Age</span>
                 <input
                   type="number"
-                  id="name"
                   placeholder="Enter Your Gender"
                   required
                   className="genderInput"
@@ -91,7 +90,7 @@ export default function Register() {
             <Link to="/login">
               <a className="login">Go to Login</a>
             </Link>
-            <Link to="/home">
+            <Link to="/">
               <a className="home">Go to Home</a>
             </Link>
           </div>

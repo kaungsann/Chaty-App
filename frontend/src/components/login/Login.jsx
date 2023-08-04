@@ -48,7 +48,7 @@ export default function Login() {
             <Link to="/register">
               <a className="login">Go to Register</a>
             </Link>
-            <Link to="/login">
+            <Link to="/">
               <a className="home">Go to Home</a>
             </Link>
           </div>
