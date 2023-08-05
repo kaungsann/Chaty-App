@@ -1,0 +1,142 @@
+.chatContainer {
+  padding: 8px;
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  position: relative;
+}
+
+.name {
+  font-size: 20px;
+  color: rgb(15, 15, 143);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bolder;
+}
+.nameBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.online {
+  color: rgb(27, 190, 27);
+  font-size: 17px;
+}
+.img {
+  width: 60px;
+  height: 50px;
+  border-radius: 35px;
+  margin-right: 15px;
+}
+.titleBox {
+  display: flex;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+.icon {
+  padding: 8px;
+  border-radius: 30px;
+  color: rgb(15, 15, 143);
+  font-size: 24px;
+  background-color: rgb(228, 218, 218);
+  margin-left: 10px;
+}
+.icon:hover {
+  background-color: rgb(15, 15, 143);
+  color: white;
+}
+.Title {
+  display: flex;
+  padding: 8px;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  border-radius: 6px;
+}
+.postBox {
+  padding: 8px;
+  box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+}
+.storeBox {
+  display: flex;
+
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px;
+}
+.emoji {
+  font-size: 25px;
+  color: rgb(15, 15, 143);
+  margin-left: 20px;
+}
+.texting {
+  width: 100%;
+  padding: 8px;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+}
+.iconsBox {
+  display: flex;
+}
+.inputBox {
+  width: 65%;
+}
+.send {
+  font-size: 20px;
+  color: whitesmoke;
+  margin-left: 20px;
+  border-radius: 20px;
+  background-color: #ee00ab;
+  padding: 6px 8px;
+}
+.viewMsg {
+  height: 80%;
+  margin-top: 5px;
+  margin-bottom: 8px;
+  padding: 8px;
+  background-color: white;
+  overflow-y: scroll;
+}
+.file {
+  font-size: 25px;
+  color: rgb(15, 15, 143);
+  margin-left: 20px;
+}
+.showBox {
+  background-color: white;
+  margin-top: 4px;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  z-index: 10;
+  border-radius: 8px;
+  left: 0;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.Show {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.Show:hover {
+  background-color: aliceblue;
+}
+.detail {
+  position: relative;
+}
+.mute {
+  color: rgb(15, 15, 143);
+  font-size: 18px;
+}
+.boxText {
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  color: #343a34;
+}

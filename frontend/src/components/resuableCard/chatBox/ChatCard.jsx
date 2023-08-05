@@ -18,7 +18,9 @@ export default function ChatCard() {
 
         <div className={card.cardTime}>
           <span className={card.time}>20 Min</span>
-          <span className={card.number}>11</span>
+          <div className={card.num}>
+            <span className={card.number}>8</span>
+          </div>
         </div>
       </div>
     </>

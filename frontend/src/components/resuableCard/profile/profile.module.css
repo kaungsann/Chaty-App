@@ -1,0 +1,124 @@
+.title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+.container {
+  padding: 10px;
+}
+.text {
+  font-size: 18px;
+  color: rgb(15, 15, 143);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 800;
+}
+.cross {
+  font-size: 20px;
+  color: white;
+  font-weight: bolder;
+  padding: 6px;
+  background-color: #ee00ab;
+  border-radius: 15px;
+}
+.img {
+  width: 120px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+.imgBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+.name {
+  font-size: 22px;
+  color: rgb(15, 15, 143);
+  font-weight: bolder;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.online {
+  color: rgb(27, 190, 27);
+}
+.dot {
+  width: 20px;
+  background-color: rgb(27, 190, 27);
+  margin-right: 10px;
+  border-radius: 50%;
+}
+.check {
+  margin-top: 10px;
+  display: flex;
+}
+.aboutCotainer {
+  margin-top: 25px;
+  display: flex;
+  padding: 8px;
+  justify-content: center;
+}
+.mediaBox {
+  margin-left: 22px;
+}
+.aboutBox {
+  font-size: 15px;
+  color: rgb(15, 15, 143);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.checkBox {
+  margin-top: 25px;
+  margin-bottom: 15px;
+}
+.details {
+  font-size: 18px;
+  color: rgb(139, 136, 136);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.phoneBox {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+.bold {
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  margin-bottom: 5px;
+}
+.color {
+  color: rgb(139, 136, 136);
+}
+.warmingBox {
+  display: flex;
+  flex-direction: column;
+  margin-top: 25px;
+}
+.warming {
+  color: rgb(221, 25, 25);
+  font-size: 20px;
+  margin-right: 15px;
+}
+.warmText {
+  font-size: 15px;
+  color: rgb(221, 25, 25);
+  font-weight: 600;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.redBox {
+  display: flex;
+  margin-top: 12px;
+  align-items: center;
+}
+.settngBox {
+  margin-top: 15px;
+}
+.seText {
+  color: rgb(139, 136, 136);
+  font-size: 15px;
+}
+.controlBox {
+  margin-top: 10px;
+}
