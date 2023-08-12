@@ -1,0 +1,352 @@
+{
+    "meta": {
+        "__export_time": 1691860255884,
+        "__export_app": "firecamp_v2.7.1 ",
+        "__export_version": 1
+    },
+    "project": {
+        "name": "chat-data",
+        "description": "",
+        "auth": {},
+        "scripts": {
+            "pre": "",
+            "post": "",
+            "test": ""
+        },
+        "meta": {
+            "active_auth": "no_auth"
+        }
+    },
+    "modules": [
+        {
+            "meta": {
+                "active_auth": "inherit",
+                "inherit_script": {
+                    "pre": true,
+                    "post": true,
+                    "test": true
+                }
+            },
+            "name": "userManagement",
+            "auth": {
+                "inherit": {}
+            },
+            "scripts": {
+                "pre": "",
+                "post": "",
+                "test": ""
+            },
+            "requests": [
+                {
+                    "meta": {
+                        "name": "get all user",
+                        "description": "",
+                        "active_auth": "inherit",
+                        "type": "api",
+                        "version": "1.0",
+                        "inherit_script": {
+                            "pre": true,
+                            "post": true,
+                            "test": true
+                        }
+                    },
+                    "url": {
+                        "slashes": true,
+                        "protocol": "http:",
+                        "hash": "",
+                        "pathname": "/user/",
+                        "auth": "",
+                        "host": "127.0.0.1:7000",
+                        "port": "7000",
+                        "hostname": "127.0.0.1",
+                        "password": "",
+                        "username": "",
+                        "origin": "http://127.0.0.1:7000",
+                        "href": "http://127.0.0.1:7000/user/",
+                        "query_params": [],
+                        "path_params": []
+                    },
+                    "method": "GET",
+                    "headers": [],
+                    "config": {
+                        "ORIGIN": "",
+                        "USERAGENT": "",
+                        "TIMEOUT_MS": 0,
+                        "REJECT_UNAUTHORIZED": false,
+                        "FOLLOWLOCATION": true,
+                        "MAXREDIRS": -1,
+                        "HTTP_VERSION": "V2Tls"
+                    },
+                    "scripts": {
+                        "pre": "",
+                        "post": "",
+                        "test": ""
+                    },
+                    "bodies": [
+                        {
+                            "name": "Default",
+                            "meta": {
+                                "active_body_type": "noBody",
+                                "is_default": true
+                            },
+                            "body": {}
+                        }
+                    ]
+                },
+                {
+                    "meta": {
+                        "name": "user register",
+                        "description": "",
+                        "active_auth": "inherit",
+                        "type": "api",
+                        "version": "1.0",
+                        "inherit_script": {
+                            "pre": true,
+                            "post": true,
+                            "test": true
+                        }
+                    },
+                    "url": {
+                        "slashes": true,
+                        "protocol": "http:",
+                        "hash": "",
+                        "pathname": "/user/register",
+                        "auth": "",
+                        "host": "127.0.0.1:7000",
+                        "port": "7000",
+                        "hostname": "127.0.0.1",
+                        "password": "",
+                        "username": "",
+                        "origin": "http://127.0.0.1:7000",
+                        "href": "http://127.0.0.1:7000/user/register",
+                        "query_params": [],
+                        "path_params": []
+                    },
+                    "method": "POST",
+                    "headers": [
+                        {
+                            "key": "Content-Type",
+                            "value": "application/json",
+                            "type": "text",
+                            "disable": false
+                        }
+                    ],
+                    "config": {
+                        "ORIGIN": "",
+                        "USERAGENT": "",
+                        "TIMEOUT_MS": 0,
+                        "REJECT_UNAUTHORIZED": false,
+                        "FOLLOWLOCATION": true,
+                        "MAXREDIRS": -1,
+                        "HTTP_VERSION": "V2Tls"
+                    },
+                    "scripts": {
+                        "pre": "",
+                        "post": "",
+                        "test": ""
+                    },
+                    "bodies": [
+                        {
+                            "name": "Default",
+                            "meta": {
+                                "active_body_type": "application/json",
+                                "is_default": true
+                            },
+                            "body": {
+                                "application/json": {
+                                    "value": "{ \n  \"name\" : \"Aung Aung\" , \n  \"age\" : \"18\" ,\n   \"gender\" : \"male\" ,\n   \"email\" : \"aung12@gmail.com\" ,\n   \"phone\" : \"098765432\" ,\n   \"password\" : \"aung1234\"\n}",
+                                    "headers": []
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "meta": {
+                        "name": "user login",
+                        "description": "",
+                        "active_auth": "inherit",
+                        "type": "api",
+                        "version": "1.0",
+                        "inherit_script": {
+                            "pre": true,
+                            "post": true,
+                            "test": true
+                        }
+                    },
+                    "url": {
+                        "slashes": true,
+                        "protocol": "http:",
+                        "hash": "",
+                        "pathname": "/user/login",
+                        "auth": "",
+                        "host": "127.0.0.1:7000",
+                        "port": "7000",
+                        "hostname": "127.0.0.1",
+                        "password": "",
+                        "username": "",
+                        "origin": "http://127.0.0.1:7000",
+                        "href": "http://127.0.0.1:7000/user/login",
+                        "query_params": [],
+                        "path_params": []
+                    },
+                    "method": "POST",
+                    "headers": [
+                        {
+                            "key": "Content-Type",
+                            "value": "application/json",
+                            "type": "text",
+                            "disable": false
+                        }
+                    ],
+                    "config": {
+                        "ORIGIN": "",
+                        "USERAGENT": "",
+                        "TIMEOUT_MS": 0,
+                        "REJECT_UNAUTHORIZED": false,
+                        "FOLLOWLOCATION": true,
+                        "MAXREDIRS": -1,
+                        "HTTP_VERSION": "V2Tls"
+                    },
+                    "scripts": {
+                        "pre": "",
+                        "post": "",
+                        "test": ""
+                    },
+                    "bodies": [
+                        {
+                            "name": "Default",
+                            "meta": {
+                                "active_body_type": "application/json",
+                                "is_default": true
+                            },
+                            "body": {
+                                "application/json": {
+                                    "value": "{\n         \"email\": \"tom123@gmail.com\",\n         \"password\" : \"tom12345\"\n}",
+                                    "headers": []
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "meta": {
+                "active_auth": "inherit",
+                "inherit_script": {
+                    "pre": true,
+                    "post": true,
+                    "test": true
+                }
+            },
+            "name": "Chat Managment",
+            "auth": {
+                "inherit": {}
+            },
+            "scripts": {
+                "pre": "",
+                "post": "",
+                "test": ""
+            },
+            "requests": [
+                {
+                    "meta": {
+                        "name": "chat with user",
+                        "description": "",
+                        "type": "socketio",
+                        "version": "2.0"
+                    },
+                    "url": {
+                        "slashes": true,
+                        "protocol": "http:",
+                        "hash": "",
+                        "pathname": "/chat",
+                        "auth": "",
+                        "host": "127.0.0.1:7000",
+                        "port": "7000",
+                        "hostname": "127.0.0.1",
+                        "password": "",
+                        "username": "",
+                        "origin": "http://127.0.0.1:7000",
+                        "href": "http://127.0.0.1:7000/chat?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NGQxMzg4MzM4ZWY2MDQ2OGFlYmVhYzQiLCJuYW1lIjoiVG9tIiwiYWdlIjoiMTAiLCJnZW5kZXIiOiJtYWxlIiwiZW1haWwiOiJ0b20xMjNAZ21haWwuY29tIiwicGhvbmUiOiIwOTEyMzEyMzEyIiwiY3JlYXRlIjoiMjAyMy0wOC0wN1QxODozMTozMS40ODRaIiwiaWF0IjoxNjkxODMzODk3LCJleHAiOjE2OTE4Mzc0OTd9.9Nd4yp_PRZ6wJOdxdjXjcnmYFQ_BLVrnM6F0KaURtbk",
+                        "path_params": [],
+                        "query_params": []
+                    },
+                    "config": {
+                        "version": "v4",
+                        "rejectUnauthorized": false,
+                        "timeout": 20000,
+                        "reconnection": false,
+                        "reconnectionAttempts": 3,
+                        "reconnectionDelay": 1000,
+                        "reconnectionDelayMax": 5000,
+                        "on_connect_listeners": []
+                    },
+                    "connections": [
+                        {
+                            "name": "Default",
+                            "forceNew": false,
+                            "namespace": "",
+                            "path": "",
+                            "ping": false,
+                            "ping_interval": 3000,
+                            "transports": {
+                                "websocket": true,
+                                "polling": true
+                            },
+                            "headers": [],
+                            "query_params": [
+                                {
+                                    "key": "token",
+                                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NGQxMzg4MzM4ZWY2MDQ2OGFlYmVhYzQiLCJuYW1lIjoiVG9tIiwiYWdlIjoiMTAiLCJnZW5kZXIiOiJtYWxlIiwiZW1haWwiOiJ0b20xMjNAZ21haWwuY29tIiwicGhvbmUiOiIwOTEyMzEyMzEyIiwiY3JlYXRlIjoiMjAyMy0wOC0wN1QxODozMTozMS40ODRaIiwiaWF0IjoxNjkxODMzODk3LCJleHAiOjE2OTE4Mzc0OTd9.9Nd4yp_PRZ6wJOdxdjXjcnmYFQ_BLVrnM6F0KaURtbk",
+                                    "disable": false,
+                                    "type": "text"
+                                }
+                            ],
+                            "auth": [],
+                            "is_default": true
+                        }
+                    ],
+                    "listeners": [
+                        "message"
+                    ],
+                    "emitter_collection": [
+                        {
+                            "name": "message",
+                            "body": [
+                                {
+                                    "meta": {
+                                        "type": "json",
+                                        "envelope": ""
+                                    },
+                                    "payload": "{\n  \"from\": \"  64d736ab67f4adb0fd4d5520\" ,\n  \"to\" : \"64d1388338ef60468aebeac4\" ,\n   \"type\" : \"text\" ,\n   \"msg\" : \"hello i am mg mg\"\n}"
+                                }
+                            ],
+                            "meta": {
+                                "label": "mg mg send to tom",
+                                "interval": "",
+                                "ack": false
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "requests": [],
+    "environments": [
+        {
+            "name": "Development",
+            "variables": {
+                "variable_name": "variable_value"
+            }
+        },
+        {
+            "name": "Production",
+            "variables": {
+                "variable_name": "variable_value"
+            }
+        }
+    ]
+}
